@@ -1,0 +1,1 @@
+target_sources(curl_cpp PUBLIC main.cpp)

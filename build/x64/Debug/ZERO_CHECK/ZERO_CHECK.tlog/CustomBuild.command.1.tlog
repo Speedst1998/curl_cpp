@@ -1,0 +1,10 @@
+^C:\DEV\CURL_CPP\BUILD\CMAKEFILES\C2BB29CD9CFF9786255F1E3EAB5124CA\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Dev/curl_cpp -BC:/Dev/curl_cpp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Dev/curl_cpp/build/curl_cpp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
