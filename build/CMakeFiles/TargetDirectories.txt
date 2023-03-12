@@ -1,3 +1,0 @@
-C:/Dev/curl_cpp/build/CMakeFiles/curl_cpp.dir
-C:/Dev/curl_cpp/build/CMakeFiles/ALL_BUILD.dir
-C:/Dev/curl_cpp/build/CMakeFiles/ZERO_CHECK.dir
