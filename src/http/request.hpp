@@ -1,5 +1,7 @@
+#pragma once
+
 #include <string>
-#include <vector>
+#include <unordered_map>
 
 enum HttpMethod
 {
@@ -14,7 +16,7 @@ struct RequestLine
     std::string protocol;
 };
 
-typedef std::vector<std::string> Headers;
+typedef std::unordered_map<std::string, std::string> Headers;
 struct Request
 {
     RequestLine requestLine;

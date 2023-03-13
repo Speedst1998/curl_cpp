@@ -9,4 +9,4 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(Catch2)
 
 add_executable(test tests.cpp)
-target_link_libraries(test Catch2::Catch2WithMain)
+target_link_libraries(test Catch2::Catch2WithMain http spdlog)
